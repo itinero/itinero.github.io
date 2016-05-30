@@ -1,7 +1,7 @@
 # Site settings
 title: Itinero
 description: 'Open source routing engine for .NET'
-url: 'http://itinero.github.io/' 
+url: 'http://www.itinero.tech/' 
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
