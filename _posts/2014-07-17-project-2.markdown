@@ -1,0 +1,16 @@
+---
+title: Intermodal Route Planning
+subtitle: Intermodal route planning website for train and bus transit.
+layout: default
+modal-id: 2
+date: 2014-07-17
+img: escape.png
+thumbnail: escape-thumbnail.png
+alt: image-alt
+project-date: 2013-2016
+client: Eurostation
+category: Intermodal Routing
+project-url: http://kortrijk.relivetraffic.com/
+description: A multimodal route planning website was implemented for the city of Kortrijk. Routing is possible using combination of walking and a combination of bus and train but also a park and ride system.
+
+---

@@ -1,0 +1,15 @@
+---
+title: Newspaper Delivery
+subtitle: A logistical optimization project for newspaper delivery.
+layout: default
+modal-id: 6
+date: 2014-07-15
+img: roundicons.png
+thumbnail: roundicons-thumbnail.png
+alt: image-alt
+project-date: 2012
+client: BPost (Deltamedia)
+category: Logistical Optimization
+description: In this project a system was built to optimize the daily delivery of about 150.000 newspapers divided into 1800 different routes. Instructions and routes are generated for drivers.
+
+---

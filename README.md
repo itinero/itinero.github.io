@@ -1,45 +1,30 @@
-# jekyll-uno
+Agency Jekyll theme
+====================
 
-Jekyll-Uno - a minimal, responsive theme for Jekyll based on the [Uno](https://github.com/daleanthony/Uno) theme for Ghost.
+Agency theme based on [Agency bootstrap theme ](http://startbootstrap.com/templates/agency/)
 
-> :warning:
-  This theme requires ruby and rubygems installed
+# How to use
 
-### Features
+###Portfolio 
 
-* Clean layout
-* Resposive layout
-* Pagination
-* Syntax highlighting
-* Social links
-* Tags listing page
-* Categories listing page
-* Google Analytics integration
-* Disqus integration
+Portfolio projects are in '/_posts'
 
----
+Images are in '/img/portfolio'
 
-### Install and Test
+###About
 
-1. Download or clone repo `git clone git@github.com:joshgerdes/jekyll-uno.git`
-2. Enter the folder: `cd jekyll-uno/`
-3. If you don't have bundler installed: `gem install bundler`
-3. Install Ruby gems: `bundle install`
-4. Start Jekyll server: `jekyll serve`
+Images are in '/img/about/'
 
-Access via: [http://localhost:4000/jekyll-uno](http://localhost:4000/jekyll-uno)
+###Team
 
----
+Team members and info are in '_config.yml'
 
-### Demo and Download
+Images are in '/img/team/'
 
-[Demo](http://joshgerdes.com/jekyll-uno/)
-[Download](https://github.com/joshgerdes/jekyll-uno/archive/master.zip)
 
-![jekyll-uno - free Jekyll theme](/screenshot.png)
+# Demo
 
----
+View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
 
-### Copyright and license
-
-It is under [the MIT license](/LICENSE).
+=========
+For more details, read [documentation](http://jekyllrb.com/)

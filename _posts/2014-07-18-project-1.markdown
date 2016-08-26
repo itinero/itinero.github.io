@@ -1,0 +1,16 @@
+---
+title: Bike Sharing
+subtitle: Intermodal routing using a bike sharing system.
+layout: default
+modal-id: 1
+date: 2016-08-25
+img: dreams.png
+thumbnail: dreams-thumbnail.png
+alt: image-alt
+project-date: August 2016
+client: Anyways
+category: Intermodal Routing
+project-url: http://velo.anyways.eu/
+description: This demo project built for Anyways involves a bike sharing system in the city of antwerp. Routing is done between two points and the bike sharing system is used in the route when it's faster compare to walking.
+
+---

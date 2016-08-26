@@ -1,37 +1,57 @@
+url: http://www.itinero.tech/
+baseurl: 
+
 # Site settings
 title: Itinero
-description: 'Open source routing engine for .NET'
-url: 'http://www.itinero.tech/' 
-baseurl: '/'
-# google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
+email: ben@itinero.tech
+description: "Route planning for .NET using OpenStreetMap and C#."
 
-author:
-  name: 'Itinero'
-  email: ben@itinero.tech
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  itinero
-  linkedin_username:  joshgerdes
 
-defaults:
-  -
-    scope:
-      path: ''
-      type: 'posts'
-    values:
-        layout: 'post'
+# Team names, titles and social links
+people:
+- name: Kay Garland
+  pic: 1
+  position: Lead Designer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Larry Parker
+  pic: 2
+  position: Lead Marketer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Diana Petersen
+  pic: 3
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: github
+    url: http://github.com/itinero
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Pastorijstraat 63
+  - line: 2060 Antwerpen
 
 # Build settings
-destination: _site
-paginate: 10
-permalink: /:year/:title/
 markdown: kramdown
-highlighter: rouge
-
-kramdown:
-  # use Github Flavored Markdown
-  input: GFM
-  # do not replace newlines by <br>s
-  hard_wrap: false
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+permalink: pretty
