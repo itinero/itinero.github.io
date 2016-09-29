@@ -12,5 +12,5 @@ client: Eurostation
 category: Intermodal Routing
 project-url: http://kortrijk.relivetraffic.com/
 description: A multimodal route planning website was implemented for the city of Kortrijk. Routing is possible using combination of walking and a combination of bus and train but also a park and ride system.
-
+type: demo
 ---

@@ -12,5 +12,5 @@ client: Flowpilots
 category: Offline Routing
 project-url: https://itunes.apple.com/be/app/autoroutes-eerste-wereldoorlog/id732763864?l=nl&mt=8
 description: In this project in-app offline navigation was built. Route planning happens offline by packaging the routing network and map together with the app.
-
+type: demo
 ---
