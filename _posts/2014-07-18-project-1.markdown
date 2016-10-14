@@ -12,5 +12,5 @@ client: Anyways
 category: Intermodal Routing
 project-url: http://velo.anyways.eu/?fLat=51.2163&fLon=4.3961&tLat=51.219&tLon=4.4349
 description: This demo project built for Anyways involves a bike sharing system in the city of antwerp. Routing is done between two points and the bike sharing system is used in the route when it's faster compare to walking.
-
+type: demo
 ---

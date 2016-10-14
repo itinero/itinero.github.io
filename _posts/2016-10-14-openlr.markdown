@@ -1,0 +1,34 @@
+---
+title: OpenLR
+subtitle: OpenLR implemention for Itinero
+layout: post
+type: blog
+author: 'Ben Abelshausen'
+featured: blog/openlr-decoding-sample.gif
+---
+
+We've released a first version of an OpenLR encoder/decoder based on Itinero. Check the MIT-licensed code in the <a href="https://github.com/itinero/openlr">repository</a> on Github!
+
+#### What is OpenLR?
+
+The official version:
+
+_"OpenLR is an open source software project launched by TomTom back in 2009 to provide a royalty-free dynamic location referencing method enabling reliable data exchange and cross-referencing using digital maps of different vendors and versions."_
+
+Or in other words, OpenLR provides a way to reference a location in a road network in a way that is independent of the actual network provider. This means you can _decode_ a location on an OpenStreetMap network that was _encoded_ on a TomTom network for example. It's more or less a standard way of communicating about data linked to road networks and implemented by a number of other projects.
+
+#### It's about the data, stupid!
+
+OpenLR and the way it's built leads to a number of possible use cases:
+
+- Linking any kind of meta-data to a road network. This means you don't need to link data to a specific link id only valid in for a specific network, just storing the OpenLR location is fine.
+- A way to port this data to other (future) version of the road network.
+- Stream information about segments of the road network (like traffic jams, accidents,...), or in other words, provide traffic info without the need to share the same version of the road network.
+
+We've build a live demo website to showcase OpenLR on OpenStreetMap. It's fast and scales to the entire globe! You can decode a location by using a URL parameter:
+
+- Urmond, The Netherlands: <a href="http://openlr.itinero.tech/?code=KwQdWSRDIQERDf61/UgBAWs=">http://openlr.itinero.tech/?code=KwQdWSRDIQERDf61/UgBAWs=</a>
+- Ho Chi Minh City, Viet Nam: <a href="http://openlr.itinero.tech/?code=K0veqQe5HwEIBgFY/+qBGEs=">http://openlr.itinero.tech/?code=K0veqQe5HwEIBgFY/+qBGEs=</a>
+- Tokyo, Japan: <a href="http://openlr.itinero.tech/?code=K2NeLBlgFAEIAgCg//5BF2M=">http://openlr.itinero.tech/?code=K2NeLBlgFAEIAgCg//5BF2M=</a>
+
+You can also create new locations (line locations and point along line locations). Follow the instructions on the website.

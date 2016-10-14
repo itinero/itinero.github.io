@@ -23,6 +23,15 @@ p {
     line-height: 1.75;
 }
 
+p.post-meta {
+	color: #b4bcc2
+}
+
+li {
+    font-size: 14px;
+    line-height: 1.75;
+}
+
 p.large {
     font-size: 16px;
 }
