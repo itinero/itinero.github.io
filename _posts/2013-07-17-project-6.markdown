@@ -12,5 +12,5 @@ project-url: http://heatmap.anyways.eu/
 client: Demo
 category: Transit Routing
 description: A heatmap showing where the train can get you within a given timerange. The map is updated by adding one minute to the depature time every second resulting in a growing/shrinking heatmap.
-
+type: demo
 ---

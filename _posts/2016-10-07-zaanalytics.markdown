@@ -12,5 +12,5 @@ project-url: http://analytics.anyways.eu/
 client: Demo
 category: Analytics
 description: A map showing all routes to one location.
-
+type: demo
 ---
