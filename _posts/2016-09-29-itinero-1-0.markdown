@@ -2,7 +2,7 @@
 title: Itinero 1.0
 subtitle: First stable release of Itinero
 layout: post
-type: blog
+type: draft
 author: 'Ben Abelshausen'
 featured: blog/itinero-1-0.png
 ---
