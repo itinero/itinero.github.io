@@ -2,7 +2,7 @@
 title: Transit Heatmap
 subtitle: A heatmap showing a timerange.
 layout: default
-modal-id: 2
+modal-id: 6
 date: 2015-09-03
 img: heatmap1.gif
 thumbnail: heatmap1-thumbnail.gif

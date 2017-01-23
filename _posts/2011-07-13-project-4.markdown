@@ -2,7 +2,7 @@
 title: Newspaper Delivery
 subtitle: A logistical optimization project for newspaper delivery.
 layout: default
-modal-id: 6
+modal-id: 4
 date: 2014-07-15
 img: roundicons.png
 thumbnail: roundicons-thumbnail.png
