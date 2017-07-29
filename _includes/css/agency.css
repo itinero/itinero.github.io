@@ -19,7 +19,7 @@ body {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.75;
 }
 
@@ -27,8 +27,12 @@ p.post-meta {
 	color: #b4bcc2
 }
 
+div.post {
+    font-size: 125%; 
+}
+
 li {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.75;
 }
 
@@ -61,9 +65,11 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
+    text-transform: none;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .img-centered {

@@ -14,15 +14,12 @@
 						<h3>Our latest news</h3>
 					</header> -->
 					
-						<div class="row">
-							<div class="col-md-8">
-								<a href="{{ site.baseurl }}{{ post.url }}"><h1>{{ page.title }}</h1></a>
-								<p class="post-meta">Posted {{ page.date | date_to_string }}, By {{ page.author }}</p>
-								{{ content }}
-							</div>
-							<div class="col-md-4">
-								<img style="width: 100%; max-width: 400px; max-height: 500px;" src="{{ site.baseurl }}/img/{{ page.featured }}" alt="">
-							</div>
+						<div class="row post">
+							<a href="{{ site.baseurl }}{{ post.url }}"><h1>{{ page.title }}</h1></a>
+							<p class="post-meta">Posted {{ page.date | date_to_string }}, By {{ page.author }}</p>
+							<img style="width: 100%; max-width: 400px; max-height: 500px; margin-top: 20px; margin-bottom: 20px;" 
+								src="{{ site.baseurl }}/img/{{ page.featured }}" alt="">
+							{{ content }}
 						</div>
 			
 		</div>
