@@ -5,6 +5,7 @@ layout: post
 type: blog
 author: 'Ben Abelshausen'
 featured: blog/openlr-decoding-sample.gif
+featuredbig: blog/openlr-decoding-sample-big.gif
 ---
 
 We've released a first version of an OpenLR encoder/decoder based on Itinero. Check the MIT-licensed code in the <a href="https://github.com/itinero/openlr">repository</a> on Github!

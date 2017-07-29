@@ -5,6 +5,7 @@ layout: post
 type: blog
 author: 'Ben Abelshausen'
 featured: blog/itinero-1-0.png
+featuredbig: blog/itinero-1-0-overview.png
 ---
 
 We have released v1.0 of Itinero! Get it now via [nuget](https://www.nuget.org/packages/Itinero) or check [github](https://github.com/itinero/routing). We are very proud of this and we tried to limit features to get to v1.0 fast but we could have done better, this release contains a lot of new stuff when comparing with the state of the project back when it was called [OsmSharp](http://www.osmsharp.com/). 
