@@ -26,9 +26,11 @@ An example solution, from a sequence of points to a solution route:
 ![](/img/blog/optimization-tsp.png)  
 *A fastest route along a sequence of points.*
 
-Now this is ideal for simple logistical optimization problems, or routes along several POI's, but we are planning to expand to routing calls to basic routing problems with multiple vehicles soon.
+**Support for multiple vehicles**
 
-## U-turns
+This is ideal for simple logistics problems, or shortest routes along several POI's, but we are planning to expand to routing calls with multiple vehicles soon.
+
+**U-turns**
 
 Another thing we did is add support for U-turn prevention. While this is something we already have in the Itinero routing engine itself, there is also a need to implement this at the level of the optimization code. 
 
