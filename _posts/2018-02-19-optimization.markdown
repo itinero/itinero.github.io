@@ -8,7 +8,7 @@ featured: blog/optimization-animated.gif
 featuredbig: blog/optimization-header.png
 ---
 
-The Itinero project originally started as a logistical optimization project for newspaper delivery. Nowadays we separate the optimization code, meaning, the code that calculates in what order a sequence of points have to be travelled along to get the best travel time from the [routing core](https://github.com/itinero/routing). In [the current version](https://github.com/itinero/optimization) we only do this for one vehicle at time, check out the [Travelling Salesman Problem (TSP)](https://en.wikipedia.org/wiki/Travelling_salesman_problem) for more information. We use a combination of Genetic Algorithms, local search and Guided Neighbourhood Search to get good results very fast.
+The Itinero project originally started as a logistical optimization project for newspaper delivery. We built a new and improved version on top of the current [routing core](https://github.com/itinero/routing). In [this first version](https://github.com/itinero/optimization) we support routes for one vehicle at time, check out the [Travelling Salesman Problem (TSP)](https://en.wikipedia.org/wiki/Travelling_salesman_problem) for more information. We use a combination of Genetic Algorithms, local search and Guided Neighbourhood Search to get good results very fast.
 
 ## Supported Problems
 
