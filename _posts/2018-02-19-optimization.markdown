@@ -23,7 +23,7 @@ At the moment we support the following problem types:
 
 An example solution, from a sequence of points to a solution route:
 
-![](/img/blog/optimization-tsp.png)
+![](/img/blog/optimization-tsp.png)  
 *A fastest route along a sequence of points.*
 
 Now this is ideal for simple logistical optimization problems, or routes along several POI's, but we are planning to expand to routing calls to basic routing problems with multiple vehicles soon.
@@ -36,7 +36,7 @@ We ask the question: Is it allowed or a good idea to make U-turns at the points 
 
 So we implemented U-turn prevention in all of the supported optimization problems, an example is shown here for the TSP. This is the same sequence of points except with a cost given to U-turns:
 
-![](/img/blog/optimization-tsp-uturns.png)
+![](/img/blog/optimization-tsp-uturns.png)  
 *A fastest route along a sequence of points, taking into account the cost of U-turns.*
 
 Check out the project and it's documentation on [GitHub](https://github.com/itinero/optimization)! Get [in touch](http://www.itinero.tech/#contact) with us if you have questions or want to see some extra features added!
