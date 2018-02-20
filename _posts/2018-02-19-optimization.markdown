@@ -23,7 +23,7 @@ At the moment we support the following problem types:
 
 An example solution, from a sequence of points to a solution route:
 
-<img src="/img/blog/optimization-tsp.png" style="max-width: 100%;"/>
+<img src="/img/blog/optimization-tsp.png" style="max-width: 100%;"/>  
 *A fastest route along a sequence of points.*
 
 **U-turns**
