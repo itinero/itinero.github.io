@@ -34,7 +34,7 @@ We ask the question: Is it allowed or a good idea to make U-turns at the points 
 
 So we implemented U-turn prevention in all of the supported optimization problems, an example is shown here for the TSP. This is the same sequence of points except with a cost given to U-turns:
 
-![](/img/blog/optimization-tsp-uturns.png)  
+<img src="/img/blog/optimization-tsp-uturns.png" style="max-width: 100%;"/>  
 *A fastest route along a sequence of points, taking into account the cost of U-turns.*
 
 **Support for multiple vehicles**
