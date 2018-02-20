@@ -29,6 +29,8 @@ p.post-meta {
 
 div.post {
     font-size: 125%; 
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 li {
